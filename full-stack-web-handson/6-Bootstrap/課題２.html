@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+
+    <style>
+        .jumbotron {
+            background-image: url("jumbotronimage.jpg");
+            background-size: cover;
+            background-position: center 60%;
+            margin-top: 50px;
+            text-align: center;
+            font-family: "M PLUS Rounded 1c";
+        }
+
+        .margintop-50px {
+            margin-top: 50px;
+        }
+
+        #appSummary {
+            text-align: center;
+            font-family: "M PLUS Rounded 1c";
+        }
+
+        .card-deck{
+            text-align: center;
+        }
+
+
+        .card-img-top {
+            width: 100%;
+            font-family: "M PLUS Rounded 1c";
+        }
+
+        #appStoreIcon {
+            width: 200px;
+        }
+
+        #footer {
+            background-color: rgb(145, 153, 153);
+            padding-top: 50px;
+            margin-top: 50px;
+            text-align: center;
+            padding-bottom: 50px;
+            font-family: "M PLUS Rounded 1c";
+        }
+
+        body {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="150">
+    <div class='fixed-top'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+            <a class="navbar-brand" href="#">黒猫</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ホーム <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">リンク</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            写真をみる
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">もふもふ</a>
+                            <a class="dropdown-item" href="#">モッフモフ</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">プラチナにゃんこ（有料）</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="にゃんこを探す" aria-label=" Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">検索</button>
+                </form>
+            </div>
+        </nav> 　　
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">黒猫の写真ばかり</h1>
+            <p class="lead">そんなサイトです</p>
+            <p class="margintop-50px">
+                <font color="#fff">有料版もあるよ</font>
+            </p>
+            <a class="btn btn-info btn-lg" href="#" role="button">いますぐ買う</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-align" id="appSummary">
+            <h1>「黒猫はいいぞ。」</h1>
+            <p class="lead">黒猫の写真ギャラリー</p>
+        </div>
+        <div class="container">
+            <div class="text-align">
+                <div class="card-deck">
+                            <div class="card">
+                                <img src="cat1.jpg" class="card-img-top" alt="cat1">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-grin-alt"></i> 喉が白いにゃんこ</h5>
+                                    <p class="card-text">喉が白いにゃんこの写真です</p>
+                                    <a href="#" class="btn btn-dark">kwsk</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="cat2.jpg" class="card-img-top" alt="cat2">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-grin-alt"></i> アーティストにゃんこ</h5>
+                                    <p class="card-text">アーティストにゃんこの写真です</p>
+                                    <a href="#" class="btn btn-dark">kwsk</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="cat3.jpg" class="card-img-top" alt="cat3">
+                                <div class="card-body">
+                                    <h5 class="card-title"><i class="fas fa-grin-alt"></i> 小さいにゃんこで子猫</h5>
+                                    <p class="card-text">小さいにゃんこで子猫の写真です</p>
+                                    <a href="#" class="btn btn-dark">kwsk</a>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="footer">
+                <div class="text-align">
+                    <h2>アプリをダウンロードして楽しむ</h2>
+                    <p class="lead">こちらからどうぞ</p>
+                    <p><a href=""><img id="appStoreIcon" src="icon.png"></a></p>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

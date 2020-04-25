@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!--ファイルを読み込む-->
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+     
+    <style>
+        #draggable {
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+        }
+        #container {
+            width: 800px;
+            height: 500px;
+            background-color: aquamarine;
+        }
+        #draggable2 {
+            width: 200px;
+            height: 100px;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <div id="draggable">Drag me around</div>
+
+    <div id="container">
+        <div id="draggable2">このDivは指定された範囲で動かせます</div>
+    </div>
+    
+    <script src="jquery-3.5.0.min.js"></script>
+    <!--JSファイルを読み込む-->
+    <script src="jquery-ui/jquery-ui.js"></script>
+    
+    <script type="text/javascript">
+        //$("#draggable").draggable({axis:"x"});
+        //$("#draggable").draggable({axis:"y"});
+        $("#draggable2").draggable({containment:"parent"})
+
+        </script>
+</body>
+</html>

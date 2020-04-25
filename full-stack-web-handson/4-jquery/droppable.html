@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--ファイルを読み込む-->
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+    <style>
+        #drag {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 20px;
+        }
+        #drop {
+            width: 400px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="drag">ドラッグしてください</div>
+    <!--チルドレン要素にするために<p>タグをつける-->
+    <div id="drop">
+        <p>ここにドロップしてください</p>
+    </div>
+
+    <script src="jquery-3.5.0.min.js"></script>
+    <!--JSファイルを読み込む-->
+    <script src="jquery-ui/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+       $("#drag").draggable();
+       $("#drop").droppable({
+           drop: function(event, ui){
+               $(this).addClass("ui-state-highlight").find("p").html("ドロップされました")
+           }
+       });
+
+    </script>
+</body>
+
+</html>

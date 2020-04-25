@@ -1,0 +1,221 @@
+10-Apr-2020 11:38:19.318 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 11:38:19.319 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 11:38:19.321 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@366ef90e')
+10-Apr-2020 11:39:21.068 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 11:39:21.068 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 11:40:35.967 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 11:40:35.967 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 11:40:35.970 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@366ef90e')
+10-Apr-2020 11:41:29.360 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 11:41:29.360 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 11:45:09.887 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 11:45:09.887 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 11:45:09.890 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@69637b10')
+10-Apr-2020 11:45:32.502 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 11:45:32.502 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 15:05:18.756 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 15:05:18.756 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 15:05:18.758 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7d3430a7')
+10-Apr-2020 15:36:07.010 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 15:36:07.010 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 17:46:03.482 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 17:46:03.482 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 17:46:03.484 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4ae33a11')
+10-Apr-2020 17:46:53.362 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 17:46:53.362 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 19:35:17.130 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 19:35:17.130 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 19:35:17.133 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6b54655f')
+10-Apr-2020 19:36:19.929 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 19:36:19.929 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 19:43:08.007 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 19:43:08.007 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 19:43:08.009 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2756c0a7')
+10-Apr-2020 19:47:46.922 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 19:47:46.922 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 19:56:58.184 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 19:56:58.184 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 19:56:58.187 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@eb6449b')
+10-Apr-2020 20:11:51.875 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 20:11:51.876 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 20:13:02.550 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 20:13:02.550 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 20:13:02.552 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7c351808')
+10-Apr-2020 20:59:28.917 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 20:59:28.917 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 21:00:02.205 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 21:00:02.205 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 21:00:02.206 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58670130')
+10-Apr-2020 21:00:03.863 情報 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log サーブレット [hello] を利用不可能にマークします
+10-Apr-2020 21:00:03.863 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke サーブレット [hello] に例外を割り当てます
+	java.lang.ClassNotFoundException: servlet.Hello
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1365)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1042)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+10-Apr-2020 21:00:54.976 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 21:00:54.976 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 21:00:59.419 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 21:00:59.419 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 21:00:59.422 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@f74e835')
+10-Apr-2020 21:00:59.606 情報 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log サーブレット [hello] を利用不可能にマークします
+10-Apr-2020 21:00:59.607 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke サーブレット [hello] に例外を割り当てます
+	java.lang.ClassNotFoundException: servlet.Hello
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1365)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:540)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:521)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1042)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:761)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+10-Apr-2020 22:16:45.550 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 22:16:45.550 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 22:23:14.800 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 22:23:14.800 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 22:23:14.802 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@297ea53a')
+10-Apr-2020 23:54:32.019 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 23:54:32.019 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 23:55:18.540 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 23:55:18.540 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 23:55:18.542 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1d7f7be7')
+10-Apr-2020 23:57:56.224 重大 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke パス[/first-web-app]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/hello.jsp] の中の[3]行目でエラーが発生しました
+Syntax error on token "import", delete this token
+1: <%@ page language="java" contentType="text/html; charset=UTF-8"
+2:     pageEncoding="UTF-8"%>
+3: <% page import="java.util.Calendar"%>
+4: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:/
+5: <html>
+6: <head>
+
+
+JSPファイル: [/hello.jsp] の中の[3]行目でエラーが発生しました
+Syntax error, insert ";" to complete Statement
+1: <%@ page language="java" contentType="text/html; charset=UTF-8"
+2:     pageEncoding="UTF-8"%>
+3: <% page import="java.util.Calendar"%>
+4: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:/
+5: <html>
+6: <head>
+
+
+JSPファイル: [/hello.jsp] の中の[13]行目でエラーが発生しました
+Calendar cannot be resolved
+10: <body>
+11: <h1>こんにちは、from Java Server Pages!</h1>
+12: 
+13: <%= Calendar.getInstance().getTime() %>
+14: </body>
+15: </html>
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/hello.jsp] の中の[3]行目でエラーが発生しました
+Syntax error on token "import", delete this token
+1: <%@ page language="java" contentType="text/html; charset=UTF-8"
+2:     pageEncoding="UTF-8"%>
+3: <% page import="java.util.Calendar"%>
+4: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:/
+5: <html>
+6: <head>
+
+
+JSPファイル: [/hello.jsp] の中の[3]行目でエラーが発生しました
+Syntax error, insert ";" to complete Statement
+1: <%@ page language="java" contentType="text/html; charset=UTF-8"
+2:     pageEncoding="UTF-8"%>
+3: <% page import="java.util.Calendar"%>
+4: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http:/
+5: <html>
+6: <head>
+
+
+JSPファイル: [/hello.jsp] の中の[13]行目でエラーが発生しました
+Calendar cannot be resolved
+10: <body>
+11: <h1>こんにちは、from Java Server Pages!</h1>
+12: 
+13: <%= Calendar.getInstance().getTime() %>
+14: </body>
+15: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:541)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+10-Apr-2020 23:59:10.806 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+10-Apr-2020 23:59:10.806 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+10-Apr-2020 23:59:44.569 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+10-Apr-2020 23:59:44.569 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+10-Apr-2020 23:59:44.571 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@132ddbab')

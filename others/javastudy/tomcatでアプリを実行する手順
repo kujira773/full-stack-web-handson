@@ -1,0 +1,9 @@
+起動しているかどうか
+* ps -a | grep tomcat のコマンドを打った時に、長い文字列が出てきたらtomcatが動いている
+
+1. （tomcatが起動している場合）tomcatを停止させる
+* ./Desktop/apache-tomcat-9.0.34/bin/shutdown.sh
+
+2.  copy.sh を実行する。
+3. tomcatを起動する (./startup.sh)
+http://localhost:8080/first-web-app/hello.jspで確認

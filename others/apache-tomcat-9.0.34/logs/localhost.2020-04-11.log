@@ -1,0 +1,523 @@
+11-Apr-2020 00:19:44.145 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 00:19:44.145 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 00:20:44.364 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 00:20:44.364 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 00:20:44.365 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@592e843a')
+11-Apr-2020 00:34:59.995 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 00:34:59.995 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 00:35:42.971 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 00:35:42.973 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 00:35:42.975 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@b40bb6e')
+11-Apr-2020 00:39:51.058 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 00:39:51.058 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 00:40:27.797 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 00:40:27.797 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 00:40:27.799 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@107ed6fc')
+11-Apr-2020 00:41:55.868 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 00:41:55.868 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 00:45:49.563 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 00:45:49.563 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 00:45:49.566 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@631e06ab')
+11-Apr-2020 01:14:16.366 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 01:14:16.366 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 01:14:41.726 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 01:14:41.726 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 01:14:41.728 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@423e4cbb')
+11-Apr-2020 01:16:15.712 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke パス[/first-web-app]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[/bmicalc.jsp (行：[1]、列：[2]) [Page directive]は無効な属性を持っています: [pageEncording]]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: /bmicalc.jsp (行：[1]、列：[2]) [Page directive]は無効な属性を持っています: [pageEncording]
+		at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+		at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+		at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+		at org.apache.jasper.compiler.JspUtil.checkAttributes(JspUtil.java:208)
+		at org.apache.jasper.compiler.Validator$DirectiveVisitor.visit(Validator.java:113)
+		at org.apache.jasper.compiler.Node$PageDirective.accept(Node.java:579)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Node$Visitor.visitBody(Node.java:2441)
+		at org.apache.jasper.compiler.Node$Visitor.visit(Node.java:2447)
+		at org.apache.jasper.compiler.Node$Root.accept(Node.java:470)
+		at org.apache.jasper.compiler.Node$Nodes.visit(Node.java:2389)
+		at org.apache.jasper.compiler.Validator.validateDirectives(Validator.java:1817)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:203)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:386)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+11-Apr-2020 01:18:37.299 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 01:18:37.299 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 01:18:59.378 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 01:18:59.378 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 01:18:59.380 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2e029d61')
+11-Apr-2020 01:21:48.124 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 01:21:48.125 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 01:22:11.380 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 01:22:11.380 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 01:22:11.382 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@186978a6')
+11-Apr-2020 01:22:20.391 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke パス[/first-web-app]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/bmicalc.jsp] の中の[16]行目でエラーが発生しました
+Syntax error on tokens, delete these tokens
+13: <body>
+14: <h1>あなたの結果</h1>
+15: <%
+16: 　　　　double height, weight,bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+
+
+JSPファイル: [/bmicalc.jsp] の中の[17]行目でエラーが発生しました
+The method parsedouble(String) is undefined for the type Double
+14: <h1>あなたの結果</h1>
+15: <%
+16: 　　　　double height, weight,bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+
+
+JSPファイル: [/bmicalc.jsp] の中の[18]行目でエラーが発生しました
+The method paeseDouble(String) is undefined for the type Double
+15: <%
+16: 　　　　double height, weight,bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+
+
+JSPファイル: [/bmicalc.jsp] の中の[21]行目でエラーが発生しました
+wight cannot be resolved to a variable
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+22:        out.println("あなたのBMI計算結果は" + bmi + "です。");
+23: %>
+24: 
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/bmicalc.jsp] の中の[16]行目でエラーが発生しました
+Syntax error on tokens, delete these tokens
+13: <body>
+14: <h1>あなたの結果</h1>
+15: <%
+16: 　　　　double height, weight,bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+
+
+JSPファイル: [/bmicalc.jsp] の中の[17]行目でエラーが発生しました
+The method parsedouble(String) is undefined for the type Double
+14: <h1>あなたの結果</h1>
+15: <%
+16: 　　　　double height, weight,bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+
+
+JSPファイル: [/bmicalc.jsp] の中の[18]行目でエラーが発生しました
+The method paeseDouble(String) is undefined for the type Double
+15: <%
+16: 　　　　double height, weight,bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+
+
+JSPファイル: [/bmicalc.jsp] の中の[21]行目でエラーが発生しました
+wight cannot be resolved to a variable
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+22:        out.println("あなたのBMI計算結果は" + bmi + "です。");
+23: %>
+24: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:541)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+11-Apr-2020 01:24:02.161 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 01:24:02.161 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 01:24:25.123 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 01:24:25.123 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 01:24:25.125 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@423e4cbb')
+11-Apr-2020 01:24:33.984 重大 [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke パス[/first-web-app]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/bmicalc.jsp] の中の[16]行目でエラーが発生しました
+Syntax error on tokens, delete these tokens
+13: <body>
+14: <h1>あなたの結果</h1>
+15: <%
+16: 　　　　double height, weight, bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+
+
+JSPファイル: [/bmicalc.jsp] の中の[17]行目でエラーが発生しました
+The method parsedouble(String) is undefined for the type Double
+14: <h1>あなたの結果</h1>
+15: <%
+16: 　　　　double height, weight, bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+
+
+JSPファイル: [/bmicalc.jsp] の中の[18]行目でエラーが発生しました
+The method paeseDouble(String) is undefined for the type Double
+15: <%
+16: 　　　　double height, weight, bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+
+
+JSPファイル: [/bmicalc.jsp] の中の[21]行目でエラーが発生しました
+wight cannot be resolved to a variable
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+22:        out.println("あなたのBMI計算結果は" + bmi + "です。");
+23: %>
+24: 
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/bmicalc.jsp] の中の[16]行目でエラーが発生しました
+Syntax error on tokens, delete these tokens
+13: <body>
+14: <h1>あなたの結果</h1>
+15: <%
+16: 　　　　double height, weight, bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+
+
+JSPファイル: [/bmicalc.jsp] の中の[17]行目でエラーが発生しました
+The method parsedouble(String) is undefined for the type Double
+14: <h1>あなたの結果</h1>
+15: <%
+16: 　　　　double height, weight, bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+
+
+JSPファイル: [/bmicalc.jsp] の中の[18]行目でエラーが発生しました
+The method paeseDouble(String) is undefined for the type Double
+15: <%
+16: 　　　　double height, weight, bmi;
+17:        height= Double.parsedouble(value1);
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+
+
+JSPファイル: [/bmicalc.jsp] の中の[21]行目でエラーが発生しました
+wight cannot be resolved to a variable
+18:        weight = Double.paeseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+22:        out.println("あなたのBMI計算結果は" + bmi + "です。");
+23: %>
+24: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:541)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+11-Apr-2020 01:33:17.029 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 01:33:17.030 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 01:33:17.031 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6f603e89')
+11-Apr-2020 01:33:17.139 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 01:33:17.139 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 01:33:22.008 重大 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke パス[/first-web-app]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/bmicalc.jsp] の中の[21]行目でエラーが発生しました
+wight cannot be resolved to a variable
+18:        weight = Double.parseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+22:        out.println("あなたのBMI計算結果は" + bmi + "です。");
+23: %>
+24: </body>
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/bmicalc.jsp] の中の[21]行目でエラーが発生しました
+wight cannot be resolved to a variable
+18:        weight = Double.parseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+22:        out.println("あなたのBMI計算結果は" + bmi + "です。");
+23: %>
+24: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:541)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+11-Apr-2020 01:33:34.443 重大 [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke パス[/first-web-app]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/bmicalc.jsp] の中の[21]行目でエラーが発生しました
+wight cannot be resolved to a variable
+18:        weight = Double.parseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+22:        out.println("あなたのBMI計算結果は" + bmi + "です。");
+23: %>
+24: </body>
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/bmicalc.jsp] の中の[21]行目でエラーが発生しました
+wight cannot be resolved to a variable
+18:        weight = Double.parseDouble(value2);
+19:        height /= 100;
+20: 
+21:        bmi = wight / (height * height);
+22:        out.println("あなたのBMI計算結果は" + bmi + "です。");
+23: %>
+24: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:541)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:392)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:362)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:346)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:605)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+11-Apr-2020 01:34:22.839 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 01:34:22.840 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 01:34:41.277 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 01:34:41.277 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 01:34:41.279 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@107ed6fc')
+11-Apr-2020 01:34:54.564 重大 [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke パス[/first-web-app]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[[/bmicalc.jsp] の処理中に行番号 [17] で例外が発生しました。
+
+14: <h1>あなたの結果</h1>
+15: <%
+16:        double height, weight, bmi;
+17:        height= Double.parseDouble(value1);
+18:        weight = Double.parseDouble(value2);
+19:        height /= 100;
+20: 
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	java.lang.NullPointerException
+		at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838)
+		at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+		at java.base/java.lang.Double.parseDouble(Double.java:549)
+		at org.apache.jsp.bmicalc_jsp._jspService(bmicalc_jsp.java:132)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:832)
+11-Apr-2020 01:37:48.612 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 01:37:48.612 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+11-Apr-2020 01:38:05.097 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+11-Apr-2020 01:38:05.098 情報 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+11-Apr-2020 01:38:05.100 情報 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@43b4fe19')
+11-Apr-2020 01:41:40.116 情報 [Thread-3] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+11-Apr-2020 01:41:40.116 情報 [Thread-3] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
